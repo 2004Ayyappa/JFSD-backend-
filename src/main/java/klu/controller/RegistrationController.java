@@ -17,7 +17,7 @@ import klu.controller.RegistrationRequest;
 import klu.model.Event;
 import klu.service.RegistrationService;
 
-@CrossOrigin(origins = "http://localhost:3000/")
+@CrossOrigin(origins = "https://frontend-git-main-swami-ayyappas-projects.vercel.app/")
 @RestController
 @RequestMapping("/api/registrations")
 public class RegistrationController {

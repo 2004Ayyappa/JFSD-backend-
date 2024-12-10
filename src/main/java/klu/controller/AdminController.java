@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import klu.model.Admin;
 import klu.model.AdminManager;
 
-@CrossOrigin(origins="http://localhost:3000/")
+@CrossOrigin(origins="https://frontend-git-main-swami-ayyappas-projects.vercel.app/")
 @RestController
 @RequestMapping("/admin")
 public class AdminController {

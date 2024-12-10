@@ -21,7 +21,7 @@ import org.springframework.web.bind.annotation.RestController;
 import klu.model.Event;
 import klu.model.Student;
 import klu.model.StudentManager;
-@CrossOrigin(origins="http://localhost:3000/")
+@CrossOrigin(origins="https://frontend-git-main-swami-ayyappas-projects.vercel.app/")
 @RestController
 @RequestMapping("/student")
 public class StudentController {
